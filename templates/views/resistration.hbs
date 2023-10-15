@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration </title>
+    <link rel="icon" href="logo.png" type="image/icon type">
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+<div class="wrapper">
+    <h2>Registration</h2>
+    <form action="/resistration" method="POST">
+        <div class="input-box" style="display: flex">
+            <img src="mail.png" style="height: 50px; padding:5px;">
+            <input type="text" placeholder="Enter your Full name" name="name" required>
+        </div>
+        <div class="input-box" style="display: flex">
+            <img src="user.png" style="height: 50px; padding:5px;">
+            <input type="email" placeholder="Enter your email" name="Email" required>
+        </div>
+        <div class="input-box" style="display: flex">
+            <img src="contact.png" style="height: 50px; padding:5px;">
+            <input type="tel" placeholder="Enter your Contact Number" maxlength="10" minlength="10" name="mobile" required>
+        </div>
+
+        <div class="input-box" style="display: flex">
+            <img src="pass.png" style="height: 50px; padding:5px;">
+            <input type="password" placeholder="Create password" name="password" required>
+        </div>
+        <div class="input-box"  style="display: flex">
+            <img src="password.png" style="height: 50px; padding:5px;">
+            <input type="password" placeholder="Confirm password" name="confirmpassword" required>
+        </div>
+        <div class="policy">
+            <input type="checkbox">
+            <h3>I accept all terms & condition</h3>
+        </div>
+        <div class="input-box button">
+            <input type="Submit" value="Register Now" >
+        </div>
+        <div class="text">
+            <h3>Already have an account? <a href="login">Login now</a></h3>
+        </div>
+    </form>
+</div>
+</body>
+</html>

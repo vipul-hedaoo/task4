@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!--    <meta charset="UTF-8">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Weather</title>-->
+<!--    <link rel="stylesheet" href="css/style.css">-->
+<!--    <link rel="icon" href="ic.jfif" type="image/x.logo">-->
+    {{>header}}
+
+</head>
+<style>
+    .logo{
+        position:absolute;
+        top:10px;
+        left:10px;
+    }
+    a{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .city1{
+        border-radius: 50%;
+        height: 100px;;
+        width:100px;
+    }
+</style>
+<body>
+{{>navbar}}
+<div>
+    <img src="logo.png" id="city" >
+</div>
+<form id="form">
+    <input type="text" id="search" placeholder="Search By Loaction" autocomplete="on" class="input1">
+</form>
+<main id="main">
+</main>
+<div id="blur" style="border-radius: 50%; color: blueviolet;">
+</div>
+<script src="app1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-image:linear-gradient(pink ,white,skyblue);
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-size: cover;
+
+}
+#city{
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    size: cover;
+    color:#fff;
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    border-radius: 11%;
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    border:0;
+
+}
+
+
+input {
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    font-size: 1rem;
+}
+input:focus {
+    outline: none;
+}
+.weather {
+    text-align: center;
+    font-size: 2rem;
+    mix-blend-mode:difference;
+    color:snow;
+}
+.weather h2 {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+
+} /* .weather img{ transform: scale(2); } */
